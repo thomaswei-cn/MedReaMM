@@ -30,7 +30,8 @@ def write_jsonl(data: List[Dict], file_path: str):
             f.write(json.dumps(item, ensure_ascii=False) + '\n')
 
 def get_metric_one(pred_diag: List[Dict], gt_diag: List[Dict]):
-    pred_codes = list({pred['code'] for pred in pred_diag[:10]})
+    # pred_codes = list({pred['code'] for pred in pred_diag[:10]})
+    pred_codes = [pred['code'] for pred in pred_diag[:10]]
     gt_codes = [gt['code'] for gt in gt_diag]
     primary_diag_code = next((gt['code'] for gt in gt_diag if gt['primary']), None)
     if primary_diag_code is None:
