@@ -2,7 +2,7 @@
 
 # OpenDxBench: Evaluating Multimodal Diagnostic Reasoning in Clinical Practice
 
-[![Static Badge](https://img.shields.io/badge/arxiv-ff0000?style=for-the-badge&logo=arxiv&labelColor=000)](https://arxiv.org/)  [![Static Badge](https://img.shields.io/badge/huggingface-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/thomasweiX/OpenDxBench)
+[![Static Badge](https://img.shields.io/badge/arxiv-ff0000?style=for-the-badge&logo=arxiv&labelColor=000)](https://arxiv.org/)  [![Static Badge](https://img.shields.io/badge/huggingface-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/thomasweiX/MedReaMM)
 
 </div>
 
